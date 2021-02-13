@@ -1,0 +1,18 @@
+{
+    "SUCCESS": "Success",
+    "HTTP_SUCCESS": "Success",
+    "DB_FAILURE": "Database Failure",
+    "DB_ERR": "Error in  Database",
+    "DB_DUPLICATE": "DB Duplicate key insertion error.",
+    "NO_RECORDS": "No Records Found",
+    "BAD_PARAMS": "Invalid params",
+    "BAD_REQUEST": "Bad request to server.",
+    "PARAM_MISSING": "Required Parameter missing",
+    "NO_PARAMS": "Parameter Missing !",    
+    "NOT_AUTHERIZED": "Not Authorized",
+    "INV_CRED": "Invalid Credentials.",
+    "ERR": "!!! Error !!!",    
+    "PERMISSION_DENY": "Permission Denied.",
+    "FORBIDDEN": "Permission Denied"
+    
+}
