@@ -12,6 +12,8 @@
 
 "use strict";
 var _ = require("lodash");
+const fs = require("fs");
+
 
 module.exports = function (mongoose, utils, config, constants, logger) {
 
@@ -20,9 +22,14 @@ module.exports = function (mongoose, utils, config, constants, logger) {
 
     controller.add = async function (req, res) {
         try {
-            let obj = {};
             let fields = ["name", "species", "weight", "length", "lat", "lng"];
-            obj = _.pick(req.body, fields);
+            let obj = _.pick(req.body, fields);
+            if ((req.file || {}).filename) {
+                await fs.rename(req.file.path, req.file.path + '_' + req.file.originalname, () => { console.log("file named") })
+                obj.url = config.baseurl + req.file.filename + '_' + req.file.originalname;
+            }
+
+            console.log('req.body: ', obj);
             let result = await Profile._add(obj);
             return utils.dbCallbackHandler(req, res, result, null);
         } catch (err) {

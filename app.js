@@ -33,6 +33,7 @@ var _ = require("lodash");
 logger.info("Entering environment \"" + env + "\"");
 
 var app = express();
+app.use("/staticdata", express.static("staticdata"));
 app.use(cors())
 app.use(helmet());
 app.use(useragent.express());
@@ -54,7 +55,7 @@ if (env !== "production") {
     app.use(morgan(":method :url :status :response-time ms - :res[content-length]"));
 }
 
-app.all("*",  (req, res, next) => {
+app.all("*", (req, res, next) => {
     var headers = _.clone(req.headers);
     var body = _.clone(req.body);
     logger.info("---------------------------------------------------------------------------");

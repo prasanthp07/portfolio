@@ -32,6 +32,7 @@ module.exports = function (mongoose, utils, logger) {
             required: [true, "Please enter species"],
             trim: true
         },
+        url: String,
         weight: {
             type: Number
         },
@@ -44,9 +45,6 @@ module.exports = function (mongoose, utils, logger) {
         },
         lng: {
             type: Number
-        },
-        user: {
-            type: ObjectId
         },
         __v: {
             type: Number,

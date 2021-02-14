@@ -10,11 +10,15 @@
 
 "use strict";
 const express = require("express");
+const multer = require("multer");
+var upload = multer({
+    dest: "./staticdata"
+});
 module.exports = function (app, mongoose, utils, config, constants, logger) {
     var controller = require("../controllers/profile")(mongoose, utils, config, constants, logger);
     var router = express.Router();
 
-    router.post("/", controller.add);
+    router.post("/", upload.single('file'), controller.add);
     router.get("/", controller.fetchList);
     router.get("/:id", controller.fetch);
     router.put("/:id", controller.update);
