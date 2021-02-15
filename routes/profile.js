@@ -21,8 +21,8 @@ module.exports = function (app, mongoose, utils, config, constants, logger) {
     router.post("/", upload.single('file'), controller.add);
     router.get("/", controller.fetchList);
     router.get("/:id", controller.fetch);
-    router.put("/:id", controller.update);
-    // router.delete("/:noteId", controller.deleteNote);
+    router.put("/:id", upload.single('file'), controller.update);
+    router.delete("/:id", controller.remove);
     app.use("/api/v1/profiles", router);
 
 };

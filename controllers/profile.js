@@ -19,23 +19,34 @@ module.exports = function (mongoose, utils, config, constants, logger) {
 
     var Profile = mongoose.model('Profile');
     var controller = {};
+    const resizeImage = (req) => {
+        new Promise((resolve, reject) => {
+
+            if ((req.file || {}).filename) {
+                Jimp.read(req.file.path)
+                    .then(lenna => {
+                        fs.unlink(req.file.path, () => { });
+                        return resolve(lenna
+                            .resize(config.imageSpecs.width, config.imageSpecs.height) // resize
+                            .quality(60) // set JPEG quality
+                            .write(req.file.path + '_' + req.file.originalname)); // save
+                    })
+                    .catch(err => {
+                        console.error(err);
+                        reject(err);
+                    });
+
+            }
+        })
+
+    }
 
     controller.add = async function (req, res) {
         try {
             let fields = ["name", "species", "weight", "length", "lat", "lng"];
             let obj = _.pick(req.body, fields);
             if ((req.file || {}).filename) {
-                Jimp.read(req.file.path)
-                    .then(lenna => {
-                        fs.unlink(req.file.path, () => { });
-                        return lenna
-                            .resize(config.imageSpecs.width, config.imageSpecs.height) // resize
-                            .quality(60) // set JPEG quality
-                            .write(req.file.path + '_' + req.file.originalname); // save
-                    })
-                    .catch(err => {
-                        console.error(err);
-                    });
+                await resizeImage(req);
                 obj.url = config.baseurl + req.file.filename + '_' + req.file.originalname;
             }
 
@@ -53,7 +64,11 @@ module.exports = function (mongoose, utils, config, constants, logger) {
             let obj = {};
             let fields = ["name", "species", "weight", "length", "lat", "lng"];
             obj = _.pick(req.body, fields);
-            let result = await Profile._updateOne({ user: req.params.id }, obj);
+            if ((req.file || {}).filename) {
+                await resizeImage(req);
+                obj.url = config.baseurl + req.file.filename + '_' + req.file.originalname;
+            }
+            let result = await Profile._updateOne({ _id: req.params.id }, obj);
             return utils.dbCallbackHandler(req, res, result, null);
         } catch (err) {
             logger.info("error Message", err);
@@ -79,7 +94,7 @@ module.exports = function (mongoose, utils, config, constants, logger) {
     controller.fetchList = async function (req, res) {
         try {
 
-            let result = await Profile._getList({ query: req.query });
+            let result = await Profile._getList({ query: req.query, options: { sort: { updatedAt: -1 } } });
             console.log('result: ', result);
             return utils.dbCallbackHandler(req, res, result, null);
         } catch (err) {
@@ -90,6 +105,18 @@ module.exports = function (mongoose, utils, config, constants, logger) {
 
     }
 
+    controller.remove = async function (req, res) {
+        try {
+
+            let result = await Profile._removeById(req.params.id);
+            result = { message: "removed profile successfully" }
+            return utils.dbCallbackHandler(req, res, result, null);
+        } catch (err) {
+            console.log('err: ', err);
+            logger.info("error Message", err);
+            return utils.dbCallbackHandler(req, res, null, err);
+        }
+    }
 
 
     return controller;
