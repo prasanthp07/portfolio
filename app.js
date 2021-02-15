@@ -34,6 +34,7 @@ logger.info("Entering environment \"" + env + "\"");
 
 var app = express();
 app.use("/staticdata", express.static("staticdata"));
+app.use("/docs", express.static("apidocs"));
 app.use(cors())
 app.use(helmet());
 app.use(useragent.express());
