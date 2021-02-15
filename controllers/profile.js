@@ -13,7 +13,7 @@
 "use strict";
 var _ = require("lodash");
 const fs = require("fs");
-
+const Jimp = require('jimp');
 
 module.exports = function (mongoose, utils, config, constants, logger) {
 
@@ -25,11 +25,21 @@ module.exports = function (mongoose, utils, config, constants, logger) {
             let fields = ["name", "species", "weight", "length", "lat", "lng"];
             let obj = _.pick(req.body, fields);
             if ((req.file || {}).filename) {
-                await fs.rename(req.file.path, req.file.path + '_' + req.file.originalname, () => { console.log("file named") })
+                Jimp.read(req.file.path)
+                    .then(lenna => {
+                        fs.unlink(req.file.path, () => { });
+                        return lenna
+                            .resize(config.imageSpecs.width, config.imageSpecs.height) // resize
+                            .quality(60) // set JPEG quality
+                            .write(req.file.path + '_' + req.file.originalname); // save
+                    })
+                    .catch(err => {
+                        console.error(err);
+                    });
                 obj.url = config.baseurl + req.file.filename + '_' + req.file.originalname;
             }
 
-            console.log('req.body: ', obj);
+            // console.log('req.body: ', obj);
             let result = await Profile._add(obj);
             return utils.dbCallbackHandler(req, res, result, null);
         } catch (err) {

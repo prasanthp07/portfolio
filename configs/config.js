@@ -10,7 +10,7 @@ var defaults = {
     port: process.env.PORT || 5001,
     SERVER_SECRET: process.env.SERVER_SECRET || "#SERVER_SECRET#",
     logDbUrl: process.env.MONGO_LOGS_URL,
-    baseurl: "http://localhost:" + process.env.PORT+"/staticdata/",
+    baseurl: "http://localhost:" + process.env.PORT + "/staticdata/",
     mongo: {
         dbURL: process.env.MONGO_URL,
         options: {
@@ -31,6 +31,10 @@ var defaults = {
     security: {
         REFRESH_TOK: 1728000,// 20 days
         ACCESS_TOK: 864000// seconds  (10day)
+    },
+    imageSpecs: {
+        width: 140,
+        height: 140
     }
 };
 
