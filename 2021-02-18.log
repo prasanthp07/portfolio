@@ -1,0 +1,66 @@
+{"level":"info","message":"Loading logger ...","timestamp":"8:07:48 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:07:48 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:07:48 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:07:48 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:07:48 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:07:48 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:07:49 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:08:52 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:08:52 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:08:52 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:08:52 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:08:52 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:08:52 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:08:52 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:10:17 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:10:17 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:10:17 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:10:17 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:10:17 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:10:17 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:10:17 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:10:26 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:10:26 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:10:26 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:10:26 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:10:26 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:10:26 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:10:26 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:11:23 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:11:23 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:11:23 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:11:23 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:11:23 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:11:23 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:11:23 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:15:43 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:15:43 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:15:43 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:15:43 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:15:43 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:15:43 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:15:43 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:16:11 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Thu Feb 18 2021 20:16:11 GMT+0530 (India Standard Time) from  PostmanRuntime/7.26.8","timestamp":"8:16:11 PM"}
+{"level":"info","message":"Request Headers:  {\"user-agent\":\"PostmanRuntime/7.26.8\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"537bd4d7-3df9-4309-b2ed-21e8fed39a2a\",\"host\":\"localhost:5001\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"}","timestamp":"8:16:11 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:16:11 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:16:11 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:16:27 PM"}
+{"level":"info","message":"DELETE /api/v1/profiles/6028051e4a4dd82397522cd8 on Thu Feb 18 2021 20:16:27 GMT+0530 (India Standard Time) from  PostmanRuntime/7.26.8","timestamp":"8:16:27 PM"}
+{"level":"info","message":"Request Headers:  {\"user-agent\":\"PostmanRuntime/7.26.8\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"a5a4168b-ab6b-4914-82d0-366a77ff063a\",\"host\":\"localhost:5001\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\"}","timestamp":"8:16:27 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:16:27 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:16:27 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:17:27 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:17:27 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:17:27 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:17:27 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:17:27 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:17:27 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:17:27 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:18:46 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:18:46 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:18:46 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:18:46 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:18:46 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:18:47 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:18:47 PM"}

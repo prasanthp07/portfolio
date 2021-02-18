@@ -1,36 +1,27 @@
 [
   {
+    "type": "delete",
+    "url": "https://animall-prof.herokuapp.com/api/v1/profiles/:id",
+    "title": "Delete Profile",
+    "name": "DELETE_Delete_Profile",
+    "group": "Profiles",
     "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "optional": false,
-            "field": "varname1",
-            "description": "<p>No type.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "varname2",
-            "description": "<p>With type.</p>"
-          }
-        ]
-      }
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n\n{\n    \"meta\": {\n        \"code\": 200,\n        \"timestamp\": \"2021-02-18T14:46:27.539Z\"\n    },\n    \"pagination\": {},\n    \"data\": {\n        \"message\": \"removed profile successfully\"\n    }\n}",
+          "type": "json"
+        }
+      ]
     },
-    "type": "",
-    "url": "",
     "version": "0.0.0",
-    "filename": "apidocs/main.js",
-    "group": "/Users/aravind/Desktop/portfolio/portfolio/apidocs/main.js",
-    "groupTitle": "/Users/aravind/Desktop/portfolio/portfolio/apidocs/main.js",
-    "name": ""
+    "filename": "apidocs/api.js",
+    "groupTitle": "Profiles"
   },
   {
     "type": "get",
-    "url": "localhost:5001/api/v1/profiles/:id",
-    "title": "List All profiles",
+    "url": "https://animall-prof.herokuapp.com/api/v1/profiles/:id",
+    "title": "Get Profile Details",
     "name": "GET_Profile_Details",
     "group": "Profiles",
     "parameter": {
@@ -50,7 +41,7 @@
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n\n    {\n        \"meta\": {\n            \"code\": 200,\n            \"timestamp\": \"2021-02-15T14:40:30.846Z\"\n        },\n        \"pagination\": {},\n        \"data\": {\n            \"_id\": \"602a1b623472d34e181dbf9d\",\n            \"name\": \"Bull4\",\n            \"species\": \"breed3\",\n            \"weight\": 150,\n            \"length\": 80,\n            \"url\": \"http://localhost:5001/staticdata/a9bc537d2c64ab3d329f2aa84a70364e_45.jpg\",\n            \"createdAt\": \"2021-02-15T06:57:38.920Z\",\n            \"updatedAt\": \"2021-02-15T06:57:38.920Z\"\n        }\n    }",
+          "content": "HTTP/1.1 200 OK\n\n    {\n        \"meta\": {\n            \"code\": 200,\n            \"timestamp\": \"2021-02-15T14:40:30.846Z\"\n        },\n        \"pagination\": {},\n        \"data\": {\n            \"_id\": \"602a1b623472d34e181dbf9d\",\n            \"name\": \"Bull4\",\n            \"species\": \"breed3\",\n            \"weight\": 150,\n            \"length\": 80,\n            \"url\": \"https://animall-prof.herokuapp.com/staticdata/a9bc537d2c64ab3d329f2aa84a70364e_45.jpg\",\n            \"createdAt\": \"2021-02-15T06:57:38.920Z\",\n            \"updatedAt\": \"2021-02-15T06:57:38.920Z\"\n        }\n    }",
           "type": "json"
         }
       ]
@@ -61,15 +52,15 @@
   },
   {
     "type": "get",
-    "url": "localhost:5001/api/v1/profiles",
-    "title": "List All profiles",
+    "url": "https://animall-prof.herokuapp.com/api/v1/profiles",
+    "title": "List All Profiles",
     "name": "GET_Profiles",
     "group": "Profiles",
     "success": {
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n    {\n        \"meta\": {\n            \"code\": 200,\n            \"timestamp\": \"2021-02-15T14:38:27.970Z\"\n        },\n        \"pagination\": {},\n        \"data\": [\n            {\n                \"_id\": \"602a1b623472d34e181dbf9d\",\n                \"name\": \"Bull4\",\n                \"species\": \"breed3\",\n                \"weight\": 150,\n                \"length\": 80,\n                \"url\": \"http://localhost:5001/staticdata/a9bc537d2c64ab3d329f2aa84a70364e_45.jpg\",\n                \"createdAt\": \"2021-02-15T06:57:38.920Z\",\n                \"updatedAt\": \"2021-02-15T06:57:38.920Z\"\n            }\n        ]\n    }",
+          "content": "HTTP/1.1 200 OK\n    {\n        \"meta\": {\n            \"code\": 200,\n            \"timestamp\": \"2021-02-15T14:38:27.970Z\"\n        },\n        \"pagination\": {},\n        \"data\": [\n            {\n                \"_id\": \"602a1b623472d34e181dbf9d\",\n                \"name\": \"Bull4\",\n                \"species\": \"breed3\",\n                \"weight\": 150,\n                \"length\": 80,\n                \"url\": \"https://animall-prof.herokuapp.com/staticdata/a9bc537d2c64ab3d329f2aa84a70364e_45.jpg\",\n                \"createdAt\": \"2021-02-15T06:57:38.920Z\",\n                \"updatedAt\": \"2021-02-15T06:57:38.920Z\"\n            }\n        ]\n    }",
           "type": "json"
         }
       ]
@@ -80,8 +71,8 @@
   },
   {
     "type": "post",
-    "url": "localhost:5001/api/v1/profiles",
-    "title": "Add profile",
+    "url": "https://animall-prof.herokuapp.com/api/v1/profiles",
+    "title": "Add Profile",
     "name": "POST_Add_Profile",
     "group": "Profiles",
     "parameter": {
@@ -92,7 +83,7 @@
             "type": "String",
             "optional": false,
             "field": "name",
-            "description": "<p>Profile unique ID.</p>"
+            "description": "<p>Name of Profile.</p>"
           },
           {
             "group": "Parameter",
@@ -131,10 +122,10 @@
           },
           {
             "group": "Parameter",
-            "type": "String",
+            "type": "ImageFile",
             "optional": false,
-            "field": "url",
-            "description": "<p>image url</p>"
+            "field": "file",
+            "description": "<p>Image to be uploaded</p>"
           }
         ]
       }
@@ -143,7 +134,7 @@
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n\n    {\n        \"meta\": {\n            \"code\": 200,\n            \"timestamp\": \"2021-02-15T14:40:30.846Z\"\n        },\n        \"pagination\": {},\n        \"data\": {\n            \"_id\": \"602a1b623472d34e181dbf9d\",\n            \"name\": \"Bull4\",\n            \"species\": \"breed3\",\n            \"weight\": 150,\n            \"length\": 80,\n            \"url\": \"http://localhost:5001/staticdata/a9bc537d2c64ab3d329f2aa84a70364e_45.jpg\",\n            \"createdAt\": \"2021-02-15T06:57:38.920Z\",\n            \"updatedAt\": \"2021-02-15T06:57:38.920Z\"\n        }\n    }",
+          "content": "HTTP/1.1 200 OK\n\n    {\n        \"meta\": {\n            \"code\": 200,\n            \"timestamp\": \"2021-02-15T14:40:30.846Z\"\n        },\n        \"pagination\": {},\n        \"data\": {\n            \"_id\": \"602a1b623472d34e181dbf9d\",\n            \"name\": \"Bull4\",\n            \"species\": \"breed3\",\n            \"weight\": 150,\n            \"length\": 80,\n            \"url\": \"https://animall-prof.herokuapp.com/staticdata/a9bc537d2c64ab3d329f2aa84a70364e_45.jpg\",\n            \"createdAt\": \"2021-02-15T06:57:38.920Z\",\n            \"updatedAt\": \"2021-02-15T06:57:38.920Z\"\n        }\n    }",
           "type": "json"
         }
       ]
@@ -154,8 +145,8 @@
   },
   {
     "type": "put",
-    "url": "localhost:5001/api/v1/profiles/:id",
-    "title": "Update profile",
+    "url": "https://animall-prof.herokuapp.com/api/v1/profiles/:id",
+    "title": "Update Profile",
     "name": "PUT_update_Profile",
     "group": "Profiles",
     "parameter": {
@@ -166,7 +157,7 @@
             "type": "String",
             "optional": false,
             "field": "name",
-            "description": "<p>Profile unique ID.</p>"
+            "description": "<p>Name of profile.</p>"
           },
           {
             "group": "Parameter",
@@ -205,10 +196,10 @@
           },
           {
             "group": "Parameter",
-            "type": "String",
+            "type": "ImageFile",
             "optional": false,
-            "field": "url",
-            "description": "<p>image url</p>"
+            "field": "file",
+            "description": "<p>Image file to be uploaded</p>"
           }
         ]
       }
@@ -217,7 +208,7 @@
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n\n    {\n        \"meta\": {\n            \"code\": 200,\n            \"timestamp\": \"2021-02-15T14:40:30.846Z\"\n        },\n        \"pagination\": {},\n        \"data\": {\n            \"_id\": \"602a1b623472d34e181dbf9d\",\n            \"name\": \"Bull4\",\n            \"species\": \"breed3\",\n            \"weight\": 150,\n            \"length\": 80,\n            \"url\": \"http://localhost:5001/staticdata/a9bc537d2c64ab3d329f2aa84a70364e_45.jpg\",\n            \"createdAt\": \"2021-02-15T06:57:38.920Z\",\n            \"updatedAt\": \"2021-02-15T06:57:38.920Z\"\n        }\n    }",
+          "content": "HTTP/1.1 200 OK\n\n    {\n        \"meta\": {\n            \"code\": 200,\n            \"timestamp\": \"2021-02-15T14:40:30.846Z\"\n        },\n        \"pagination\": {},\n        \"data\": {\n            \"_id\": \"602a1b623472d34e181dbf9d\",\n            \"name\": \"Bull4\",\n            \"species\": \"breed3\",\n            \"weight\": 150,\n            \"length\": 80,\n            \"url\": \"https://animall-prof.herokuapp.com/staticdata/a9bc537d2c64ab3d329f2aa84a70364e_45.jpg\",\n            \"createdAt\": \"2021-02-15T06:57:38.920Z\",\n            \"updatedAt\": \"2021-02-15T06:57:38.920Z\"\n        }\n    }",
           "type": "json"
         }
       ]
