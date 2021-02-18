@@ -4,7 +4,7 @@
   "description": "Server for Portfolio ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test":  "mocha",
     "generateDoc": "apidoc -i api/routes -o ./apidoc",
     "restart": "pm2 startOrRestart ecosystem.config.js"
   },
@@ -41,5 +41,10 @@
     "winston": "^2.4.0",
     "winston-daily-rotate-file": "^1.7.2",
     "winston-mongodb": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.0"
   }
 }

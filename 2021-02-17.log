@@ -1,0 +1,181 @@
+{"level":"info","message":"Loading logger ...","timestamp":"7:53:32 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"7:53:32 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"7:53:32 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"7:53:32 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"7:53:32 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"7:53:33 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"7:53:33 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"7:53:37 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Wed Feb 17 2021 19:53:37 GMT+0530 (India Standard Time) from  PostmanRuntime/7.26.8","timestamp":"7:53:37 PM"}
+{"level":"info","message":"Request Headers:  {\"user-agent\":\"PostmanRuntime/7.26.8\",\"accept\":\"*/*\",\"cache-control\":\"no-cache\",\"postman-token\":\"e3fb7b2d-a941-4b54-bec9-6e566c3802d3\",\"host\":\"localhost:5001\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\",\"content-type\":\"multipart/form-data; boundary=--------------------------416909333654595785457569\",\"content-length\":\"196372\"}","timestamp":"7:53:37 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"7:53:37 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"7:53:37 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:07:07 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:07:07 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:07:07 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:07:07 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:07:07 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:07:07 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:07:07 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:08:36 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:08:36 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:08:36 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:08:36 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:08:36 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:08:36 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:08:36 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:08:58 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:08:58 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:08:58 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:08:58 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:08:58 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:08:58 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:08:58 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:09:14 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:09:14 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:09:14 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:09:14 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:09:14 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:09:14 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:09:14 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:10:16 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:10:16 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:10:16 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:10:16 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:10:16 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:10:16 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:10:16 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:10:16 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Wed Feb 17 2021 20:10:16 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:10:16 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50044\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:10:16 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:10:16 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:10:16 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:10:51 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:10:51 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:10:51 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:10:51 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:10:51 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:10:51 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:10:51 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:10:51 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Wed Feb 17 2021 20:10:51 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:10:51 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50056\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:10:51 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:10:51 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:10:51 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:11:02 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:11:02 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:11:02 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:11:02 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:11:02 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:11:03 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:11:03 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:11:03 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Wed Feb 17 2021 20:11:03 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:11:03 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50071\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:11:03 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:11:03 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:11:03 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:45:17 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:45:17 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Wed Feb 17 2021 20:45:17 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50128\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:45:17 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:45:17 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:45:17 PM"}
+{"level":"info","message":"GET /api/v1/profiles/602a1b623472d34e181dbf9d on Wed Feb 17 2021 20:45:17 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50130\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:45:17 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:45:17 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:46:49 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:46:49 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Wed Feb 17 2021 20:46:49 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50136\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:46:49 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:46:49 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:46:49 PM"}
+{"level":"info","message":"GET /api/v1/profiles/602a1b623472d34e181dbf9d on Wed Feb 17 2021 20:46:49 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50138\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:46:49 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:46:49 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:48:30 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:48:30 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Wed Feb 17 2021 20:48:30 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50144\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:48:30 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:48:30 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:48:30 PM"}
+{"level":"info","message":"GET /api/v1/profiles/602a1b623472d34e181dbf9d on Wed Feb 17 2021 20:48:30 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50146\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:48:30 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:48:30 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:52:54 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:52:54 PM"}
+{"level":"info","message":"POST /api/v1/profiles on Wed Feb 17 2021 20:52:54 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50154\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"content-type\":\"application/json\",\"content-length\":\"83\",\"connection\":\"close\"}","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Request Body:  {\"name\":\"BULL\",\"species\":\"breed1\",\"weight\":150,\"length\":80,\"lat\":11.08,\"lng\":67.23}","timestamp":"8:52:54 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:52:54 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:52:54 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Wed Feb 17 2021 20:52:54 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50156\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:52:54 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:52:54 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:52:54 PM"}
+{"level":"info","message":"GET /api/v1/profiles/602d34cec22d9dc72783d1fb on Wed Feb 17 2021 20:52:54 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50158\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:52:54 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:52:54 PM"}
+{"level":"info","message":"Loading logger ...","timestamp":"8:57:39 PM"}
+{"level":"info","message":"Loading MongoDB Settings ...","timestamp":"8:57:39 PM"}
+{"level":"info","message":"Entering environment \"development\"","timestamp":"8:57:39 PM"}
+{"level":"info","message":"Loading model : profile","timestamp":"8:57:39 PM"}
+{"level":"info","message":"Loading routes : profile.js","timestamp":"8:57:39 PM"}
+{"level":"info","message":"Server Listening to port : 5001","timestamp":"8:57:39 PM"}
+{"level":"info","message":"Database connection to MongoDB opened.","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
+{"level":"info","message":"POST /api/v1/profiles on Wed Feb 17 2021 20:57:40 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50165\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"content-type\":\"application/json\",\"content-length\":\"97\",\"connection\":\"close\"}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Body:  {\"name\":\"BULL_1613575660030\",\"species\":\"breed1\",\"weight\":150,\"length\":80,\"lat\":11.08,\"lng\":67.23}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
+{"level":"info","message":"POST /api/v1/profiles on Wed Feb 17 2021 20:57:40 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50167\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"content-type\":\"application/json\",\"content-length\":\"92\",\"connection\":\"close\"}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Body:  {\"name\":\"DOG_1613575660101\",\"species\":\"PUG\",\"weight\":25,\"length\":10,\"lat\":10.08,\"lng\":67.23}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
+{"level":"info","message":"GET /api/v1/profiles on Wed Feb 17 2021 20:57:40 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50169\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
+{"level":"info","message":"GET /api/v1/profiles/602d35ec565e27c7a0b97943 on Wed Feb 17 2021 20:57:40 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50171\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
+{"level":"info","message":"DELETE /api/v1/profiles/602d35ec565e27c7a0b97943 on Wed Feb 17 2021 20:57:40 GMT+0530 (India Standard Time) from  node-superagent/3.8.3","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Headers:  {\"host\":\"127.0.0.1:50173\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"node-superagent/3.8.3\",\"connection\":\"close\"}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"Request Body:  {}","timestamp":"8:57:40 PM"}
+{"level":"info","message":"---------------------------------------------------------------------------","timestamp":"8:57:40 PM"}
